@@ -1,0 +1,44 @@
+.bodyweb{
+    width: 98.9vw;
+    height: 100vh;
+}
+.containerapplicant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.applicant{
+
+    display: flex;
+    gap: 35px;
+    position: relative;
+    text-align: center;
+    
+    margin-top: 5%;
+}
+
+.one-applicant{
+    border: 1px solid darkgreen;
+    border-radius: 10%;
+    background-color: darkgreen;
+    height: 370px;
+    width: 220px;
+    color: white;
+    margin: 10px;
+    transition: transform 0.5s;
+    
+}
+.one-applicant >* {
+    padding: 10px;
+}
+
+.one-applicant:hover{
+    transform: scale(1.2); 
+}
+.title{
+    color: darkgreen;
+    size: 50px;
+    margin-top: 5%;
+    
+}
+

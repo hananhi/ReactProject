@@ -1,0 +1,64 @@
+.bodyweb{
+    width: 98.9vw;
+    height: 100vh;
+}
+
+.title{
+    color: darkgreen;
+    size: 50px;
+    margin-top: 2%;
+    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.vertical-menu {
+    width: 600px;
+    height: 300px;
+    overflow-y: auto;
+
+  }
+  
+  .vertical-menu div {
+    background-color: #eee;
+    color: darkgreen;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+
+ .row:hover{
+ background-color:#ccc ;
+ 
+ }
+
+  
+  .info {
+   margin:50px; /* Adjust the margin as needed */
+  }
+  
+  
+/* Media Query for mobile devices */
+@media only screen and (max-width: 600px) {
+    .bodyweb {
+        width: 100vw;
+    }
+
+    .title {
+        font-size: 1.5em; /* Adjust the font size for smaller screens */
+    }
+
+    .list {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: stretch;
+    }
+
+    .vertical-menu {
+        max-width: 100%; /* Make it full width on smaller screens */
+    }
+}
+

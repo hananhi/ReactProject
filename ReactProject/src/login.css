@@ -1,0 +1,61 @@
+
+.bodyweb{
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerlogin{
+    border: 1px solid gray;
+    border-radius: 10%;
+    max-width: 300px;
+    height: 500px;
+color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: rgb(164, 224, 66);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 lightgreen;
+    
+    position: relative;
+    top: 15%;
+  left: 37%;
+}
+img{
+    max-width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.formlogin > input{
+    padding: 10px;
+    width: 220px;
+    margin: 10px;
+    margin-left: 30px;
+    
+}
+.submit{
+    color: darkgreen;
+    font-size: large;
+    font-style: bold;
+  
+}
+label{
+    margin-left: 20px;
+   
+}
+h1{
+    text-align: center;
+}
+
+.errormsg{
+    border: 2px solid rgb(44, 217, 44);
+    position: absolute;
+    width: 500px;
+    height:300px;
+    padding: 40px;
+    background-color: rgb(20, 160, 67);
+    top: 100px;
+    left: 450px;
+   z-index: 3;
+   text-align: center;
+}
+
